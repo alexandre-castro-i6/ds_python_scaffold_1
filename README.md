@@ -1,6 +1,14 @@
 # {{cookiecutter.project_slug}}
 
 
+This template uses [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) to generate project scaffolds.
+
+## How to use this template
+
+1. Install Cookiecutter: `pip install cookiecutter`
+2. Create a new project: `cookiecutter https://github.com/alexandre-castro-i6/ds_python_scaffold_1`
+
+
 A short description of the project.
 
 ## Project Organization
@@ -38,7 +46,7 @@ A short description of the project.
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── ds_python_scaffold_1   <- Source code for use in this project.
+└── {{cookiecutter.project_slug}}   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes ds_python_scaffold_1 a Python module
     │
