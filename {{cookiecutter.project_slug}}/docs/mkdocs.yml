@@ -1,0 +1,4 @@
+site_name: {{cookiecutter.project_slug}}
+# 
+site_author: Alexandre Surkus-Castro, Infinity6.ai
+# 
